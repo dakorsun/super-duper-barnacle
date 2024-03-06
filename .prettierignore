@@ -1,0 +1,10 @@
+node_modules
+dist
+infra/
+
+.idea/
+.husky
+
+package-lock.json
+docker-compose*
+pnpm-lock.yaml
