@@ -5,6 +5,8 @@ infra/
 .idea/
 .husky
 
+CHANGELOG.md
+
 package-lock.json
 docker-compose*
 pnpm-lock.yaml
