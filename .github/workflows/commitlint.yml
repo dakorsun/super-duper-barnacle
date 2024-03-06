@@ -26,4 +26,4 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
       - name: Run commitlint
-        run: pnpm exec -- commitlint --from=origin/${{ github.base_ref }} --to=${{ github.sha }}
+        run: pnpm exec -- commitlint --from=origin/${{ github.base_ref }} --to=${{ github.sha }} --verbose
